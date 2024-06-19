@@ -19,8 +19,6 @@ function App() {
   }
 
   return ( 
-    <Authenticator>
-      {({ signOut }) => (
     <main>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
